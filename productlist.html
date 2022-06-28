@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+          </style>
+        <title>Electronic Store</title>
+
+    <style>
+        
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+  </style>
+  <title>Electronic Store</title>
+
+ 
+ <!--
+   <style>
+
+    .catcar ul {
+      display: flex;
+      flex-wrap: wrap;
+      /* background-color: cadetblue; */
+      list-style: none;
+      justify-content: space-evenly;
+      width: 100%;
+      margin-top: 3px;
+      margin-bottom: 3px;
+      padding: 4px;
+      transition-property: background-color;
+      transition-duration: 1s;
+      transition-timing-function: ease-in-out;
+
+    }
+    .catcar ul:hover{
+      background-color: burlywood;
+    }
+    .catcar ul li a{
+      text-decoration: none;
+      font-family: 'Baloo Bhai 2', cursive;
+
+    }
+
+    .catcar ul li:hover{
+      background-color: whitesmoke;
+
+    }
+
+    /* product list style */
+.h2{
+  background-color: whitesmoke;
+  /* width: 50%; */
+  display: block;
+  margin:5px auto;
+  text-align: center;
+  padding: 10px;
+  font-size: 3em;
+  /* font-family:'Baloo Bhai 2', cursive; */
+}
+
+    .product{
+      display: flex;
+      flex-wrap: wrap;
+      background-color: rgb(206, 200, 193);
+    }
+    .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 5px auto;
+  text-align: center;
+  font-family: arial;
+  padding: 5px;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.footer{
+  height: 60px;
+  background-color: gray;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.footer p{
+  font-size: 1.2em;
+  position: relative;
+  top: 20px;
+  
+  
+}
+
+-->
+        
+    </style>
+</head>
+
+<body>
+<!-- header start -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <img src="logo.jpg" alt="Image" height="42" width="60">.
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="about.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="productlist.html">Product List</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="contact.html">Contact Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="resiter.html">Sign In & Registetr</a>
+                  </li>
+              
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Sign In
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Sign In </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+          <ul>
+              <li>Don't have account?</li>
+              <li><a href="">Register</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+          </div>
+        </div>
+      </nav>
+</header>
+
+ <!-- category start -->
+
+ <div class="catcar">
+  <ul class="catlist">
+    <li>Categories:</li>
+    <li class="category"><a href="">Headphone </a></li>
+    <li class="category"><a href=""> Earphone</a></li>
+    <li class="category"><a href="">Earpods </a></li>
+    <li class="category"><a href="">Charger </a></li>
+    <li class="category"><a href="">Data Cable </a></li>
+    <li class="category"><a href="">Power bank </a></li>
+    <li class="category"><a href="">ssd </a></li>
+  </ul>
+</div>
+<!-- category end -->
+
+<!-- product list start -->
+
+<h2 class="h2"> All Products</h2>
+  <div class="product">
+
+  <div class="card">
+    <img src="slider2.jpg" alt="Denim Jeans" style="width:100%" height="250px">
+    <h1>Tailored Jeans</h1>
+    <p class="price">$19.99</p>
+    <p>Some text about the jeans..</p>
+    <p><button>Order Now</button></p>
+  </div>
+
+  <div class="card">
+    <img src="slider2.jpg" alt="Denim Jeans" style="width:100%" height="250px">
+    <h1>Tailored Jeans</h1>
+    <p class="price">$19.99</p>
+    <p>Some text about the jeans..</p>
+    <p><button>Order Now</button></p>
+  </div>
+
+  <div class="card">
+    <img src="slider2.jpg" alt="Denim Jeans" style="width:100%" height="250px">
+    <h1>Tailored Jeans</h1>
+    <p class="price">$19.99</p>
+    <p>Some text about the jeans..</p>
+    <p><button>Order Now</button></p>
+  </div>
+</div>
+<!-- product list end -->
+
+<!-- footer start -->
+<div class="footer">
+<p>
+  Copyring &copy;2021. All right reserved.
+</p>
+</div>
+<!-- footer end -->
+ <!-- Option 1: Bootstrap Bundle with Popper -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+ crossorigin="anonymous"></script>
+</body>
+
+</html>

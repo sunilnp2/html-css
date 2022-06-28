@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .myform{
+          background-color: lightgray;
+        }
+        .myform form{ 
+              display: flex;
+              flex-wrap: wrap;
+              flex-direction: column;
+              width: 25%;
+              margin: auto;
+              /* font-family: 'Baloo Bhai 2', cursive; */
+              /* background-color: gray; */
+          }
+        
+          
+          .myform form input{
+            border:2px solid rgb(102, 207, 41) ;
+            border-radius: 20px;
+            margin: 1px;
+            padding: 2px;
+          }
+           .submit{
+              margin: 2px;
+              background-color: seagreen;
+          }
+          
+          
+      </style>
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- sign in start -->
+    <div class="myform">
+        <form action="noaction.php">
+            <h2 style="text-align: center;">Sign In</h2>
+            Username:<input type="text" placeholder="Enter Username" name="username" id="email">
+            <!-- <label for="password">Pawword</label> -->
+            Pawword<input type="password" placeholder="Enter password" id="password">
+            <input class="submit" type="submit" value="Sign In">
+        </form>
+        </div>
+
+        <!-- sign in end -->
+</body>
+</html>

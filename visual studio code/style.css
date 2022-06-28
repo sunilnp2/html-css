@@ -1,0 +1,102 @@
+body{
+   top: 0px;
+   left: 0px;
+   background-image: url('img/web.png');
+   font-family: 'Oswald', sans-serif;
+   /* background-image("img/bac"); */
+   
+}
+
+   .navbar{
+     display: flex; 
+    background-color:lightgray;
+    border: 3px solid black;
+    border-radius: 30px;
+
+
+}
+ .navbar ul{
+     list-style: none;
+     display: flex;
+     position: relative;
+ }
+
+ .navbar li a{
+     text-decoration: none;
+     padding: 6px 6px;
+     margin: 12px 24px;
+     font-size: 20px;
+     color: red;
+ }
+
+ .navbar li a:hover{
+     color: yellow;
+     background-color: rgb(196, 7, 7);
+ }
+
+ /* .navbar li a:visited{
+     background-color: violet;
+ } */
+
+ .navbar input{
+     position: absolute;
+     top: 25px;
+     right:70px;
+     border: 3px solid red;
+ }
+/* 
+ header::before{
+     background-image: url(img/web.png);
+     position: absolute;
+     z-index: -1;
+ } */
+
+ .para{
+     margin: 50px 100px;
+     /* border: 3px solid red; */
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     color: white;
+ }
+ .para h1{
+     font-size: 2rem;
+ }
+
+
+ /* for About */
+ .video{
+     height:100%;
+     width: 50%;
+ }
+
+ /* for contact page */
+ .container{
+     height: 500px;
+     display: block;
+     border: 2px solid red;
+     margin: 10px auto;
+     background-color: gray;
+     width: 50%;
+ }
+ .form{
+     display: flex;
+     /* border: 2px solid palevioletred; */
+     margin: 10px;
+     justify-content: center;
+     align-items: center;
+     color: red;
+     
+ }
+ .form input{
+     width: 50%;
+     padding: 3px 5px;
+     font-size: 1rem;
+    
+ }
+ .btn{
+     border: 3px solid red;
+     background-color: seashell;
+     margin: 3px auto;
+ }

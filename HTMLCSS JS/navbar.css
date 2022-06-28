@@ -1,0 +1,47 @@
+.navbar{
+    background-color: gray;
+    display: flex;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    margin: 5px 6px;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+.item{
+    margin: 5px;
+    padding: 10px;
+}
+.item a{
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 5px 3px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.item a:hover{
+    border: 1px solid greenyellow;
+    background-color: azure;
+    color : rgba(173, 7, 99, 0.897);
+}
+
+
+.search{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    right: 20px;
+    top: 20px;
+    
+    
+}
+.search button{
+    background-color: aqua;
+    margin: 8px;
+    border: 2px solid black;
+}

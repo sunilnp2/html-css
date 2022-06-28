@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before And After!</title>
+</head>
+<style>
+    body::before{
+        background: url('ba.jpg') no-repeat center center;
+        content: "";
+        position:absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index:-1;
+        opacity: 0.5;
+    }
+    .navbar {
+        position: sticky;
+        /* background-color: white; */
+        display: flex;
+    }
+
+    .list {
+        list-style: none;
+        display: flex;
+        margin: 5px 6px;
+        flex-wrap: wrap;
+        /* justify-content: center; */
+    }
+
+    .item {
+        margin: 5px;
+        padding: 10px;
+    }
+
+    .item a {
+        color: rgb(7, 184, 190);
+        font-weight: bold;
+        font-size: 1.4em;
+        margin: 5px 3px;
+        padding: 3px;
+        text-decoration: none;
+    }
+
+    .item a:hover {
+        border: 1px solid greenyellow;
+        background-color: azure;
+        color: rgba(173, 7, 99, 0.897);
+    }
+
+
+    .search {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+        right: 20px;
+        top: 20px;
+
+
+    }
+
+    .search button {
+        background-color: aqua;
+        margin: 8px;
+        border: 2px solid black;
+    }
+    section{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin: 50px auto;
+        /* background-color: beige; */
+        height: 30vh;
+        width: 70%;
+    }
+    section h1{
+        display: flex;
+        font-size: 2rem;
+        justify-content: center;
+
+    }
+    section p{
+        display: flex;
+        justify-content: center;
+        color: red;
+        /* margin: 5px 10px; */
+    }
+    .footer{
+        position: relative;
+        float: right;
+        margin-top: 150px;
+        margin-right: 50px;
+        animation-name: foot;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-delay: 0.2s;
+        background-color: yellow;
+        border: 2px solid black;
+        color:red;
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition-timing-function: ease-in-out;
+        transition-timing-function: 1s;
+        transition-property: all;
+        
+    }
+    @keyframes foot{
+        0%{
+            top: 0px;
+            left: 0;
+        }
+        20%{
+            top: 0;
+            left:20px;
+        }
+        40%{
+            top: 20px;
+            left: 15px;
+        }
+        60%{
+            top: 30px;
+            left:20px;
+        }
+        80%{
+            top: 20px;
+            left:20px
+        }
+        90%{
+            top: 20px;
+            left:10px;
+        }
+        100%{
+            top: 0;
+            left: 0;
+        }
+     }
+     .footer:hover{
+         background-color: aqua;
+         color: rgb(41, 3, 194);
+     }
+
+    
+</style>
+
+<body>
+    <div class="navbar">
+        <ul class="list">
+            <li class="item"> <a href="#">Home</a></li>
+            <li class="item"><a href="#">Product</a></li>
+            <li class="item"><a href="#">Cart</a></li>
+            <li class="item"><a href="#">Contact Us</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Search your query">
+            <button>Search</button>
+        </div>
+    </div>
+    <section>
+        <div>
+            <h1> This is section created by Sunil Nepali  </h1>
+            <p>This is paragraph for section Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolor maxime
+                ut corporis nobis numquam modi accusamus cum eos blanditiis tempore placeat quis, esse ipsam velit
+                consequuntur quia? Maiores veniam placeat ducimus. Laudantium, facere? Mollitia maiores laudantium quae!
+                Impedit iste qui atque? Soluta explicabo, exercitationem expedita molestiae laudantium adipisci in nam
+                sequi, saepe quam doloremque veniam at tenetur error nesciunt maiores iure necessitatibus a. Sunt eius
+                voluptatum tempore cum molestiae quidem! Voluptatibus earum hic dolorem dolore consequatur cupiditate,
+                adipisci corrupti, voluptatem ut cumque odit expedita illo necessitatibus aperiam maiores quod, nulla
+                reprehenderit dignissimos tenetur officia minima. Alias ad doloremque reprehenderit?</p>
+        </div>
+    </section>
+    <footer>
+       <h1 class="footer"><a href="#">chatMe</a></h1>
+    </footer>
+</body>
+
+</html>

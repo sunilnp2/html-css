@@ -1,0 +1,182 @@
+*{
+ background-color: #F0F2F5 ;
+ top: 0;
+ left: 0;
+ padding: 0;
+ margin: 0;
+}
+body{
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+}
+
+.left-container{
+    /* margin-top: 90px; */
+    width: 50vw;
+    /* background-color: aqua; */
+}
+
+.right-container{
+    width: 50vw;
+    /* background-color: red; */
+}
+
+.from-sm-12 form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 133px;
+    margin-right: 200px;
+    margin-left: 80px;
+    background-color: white;
+    /* border: 2px solid black; */
+    height: 345px;
+    width: 400px;
+    border-radius: 10px;
+
+}
+
+.from-sm-12 form input{
+    background-color: #FFFFFF;
+    margin-left: 15x;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 12px;
+    height: 34px;
+    border-radius: 7px;
+    font-size: 17px;
+    opacity: 0.7;
+    border: 1px solid rgb(169, 171, 172);;
+}
+
+#input-first{
+    margin: 15px;
+    padding: 12px;
+    height: 34px;
+
+}
+
+.submit-button{
+    margin:15px;
+    height:47px;
+    border-radius: 6px;
+    background-color: #1877f2;
+    font-size: 20px ;
+    line-height: 48px;
+    padding: 0px 16px;
+    border: none;
+    color: white;
+
+}
+
+.forgot-password{
+    /* display: block; */
+    text-align: center;
+    background-color: #F0F2F5;
+    text-decoration: none;
+    color: #1877f2;
+    margin-bottom: 25px;
+}
+
+.create-new{
+    width: 50%;
+    margin: 25px auto;
+    height: 55px;
+    border: none;
+    border-radius: 7px;
+    background-color: #42b72a;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.hr{
+    width: 90%;
+    margin: 0px auto;
+}
+
+.brand-page{
+    /* margin-top: 28px; */
+    width: 65%;
+    margin: 28px auto;
+}
+
+
+/* left part start from here */
+
+.left-content-12{
+    margin-top: 95px;
+    margin-left: 270px;
+    /* margin-right: 80px; */
+}
+
+.title-fb{
+   font-family: 'Kdam Thmor Pro', sans-serif;
+   color: #1877f2;
+   font-size: 35px;
+}
+
+.recent-login{
+    font-size: 30px;
+    margin: 4px;
+}
+
+.add-account{
+    opacity: 0.8;
+    color: black;
+}
+
+.login-account-sm12{
+    margin-top: 20px;
+    height: auto;
+    /* background-color: #42b72a; */
+    display: flex;
+}
+
+.first-img-sec{
+    /* color: aqua; */
+    height: 210px;
+    width: 100px;
+    /* border: 1px solid black; */
+    border-radius: 7px;
+    background-color: white;
+    margin-right: 100px;
+
+}
+.first-img-sec img{
+    width: 160px;
+    height: 160px;
+}
+
+.account-name-sm12{
+    height: 40px;
+    /* background-color: #F0F2F5; */
+    /* background-color: #42b72a; */
+    width: 160px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.second-add-account{
+    width: 160px;
+    height: 200px;
+    /* margin-left: 20px; */
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-account-new{
+    margin-top: 100px;
+}
+

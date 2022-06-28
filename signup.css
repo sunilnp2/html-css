@@ -1,0 +1,26 @@
+.myform{
+    background-color: lightgray;
+  }
+  .myform form{ 
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 25%;
+        margin: auto;
+        font-family: 'Baloo Bhai 2', cursive;
+        /* background-color: gray; */
+    }
+    /* .myform form label{
+      text-align: center; */
+      /* background-color: greenyellow; */
+    
+    .myform form input{
+      border:2px solid rgb(102, 207, 41) ;
+      border-radius: 20px;
+      /* margin: px; */
+      padding: 2px;
+    }
+    .submit{
+          margin: 2px;
+          background-color: seagreen;
+      }

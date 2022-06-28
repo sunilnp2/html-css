@@ -1,0 +1,611 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    top: 0;
+    left: 0;
+    font-family: 'Nuosu SIL', serif;
+    /* color: white; */
+    /* width: 100%; */
+    /* height: 100%; */
+}
+
+.container-top-12{
+    background-color: #110226;
+    height: 40px;
+    display: flex;
+    /* position: fixed; */
+    flex-direction: row;
+    align-items: center;
+}
+
+.contact-top-sm6 ul{ 
+display: flex;
+margin-left: 200px;
+
+}
+.contact-top-sm6 ul li {
+    /* text-decoration: none; */
+    list-style: none;
+}
+#fa-fa-phone{
+font-size: 13px;
+color: white;
+border-radius: 50%;
+background-color:#6610f2 ;margin-right: 4px;
+}
+
+.contact{
+    color: white;
+}
+.help{
+    background-color: #ff9f31;
+    width: 120px;
+    margin-left: 15px;
+    height: 25px;
+    padding: 2px;
+    border-radius: 35px;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.resistration-top-sm6 ul{
+    display: flex;
+    position:relative;
+    left: 630px;
+    /* margin-bottom: 50px; */
+
+    /* bottom: 5px; */
+    
+}
+
+.resistration-top-sm6 ul li{
+    text-decoration: none;
+    list-style: none;
+}
+.login-sm-3{
+    width: 100px;
+    color: white;
+    height: 25px;
+    font-size: 13px;
+    border: 1px solid white;
+    border-radius: 35px;
+    text-align: center;
+}
+.signup-sm-3{
+    width: 100px;
+    font-size: 13px;
+    margin-left: 15px;
+    height: 25px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 35px;
+    text-align: center;
+}
+/* navbar css start */
+.navbar-sm-12{
+    font-family: 'Nuosu SIL', serif;
+    display: flex;
+    /* position: fixed; */
+    /* margin-top: 4px; */
+    height: 70px;
+    /* background-color: aqua; */
+}
+.left-sm-4{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-sm-4 img{
+    height: 60px;
+    width: 120px;
+}
+
+.right-sm-8{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    color:#56328c;
+}
+.right-sm-12 {
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    margin-right: 90px;
+}
+
+.a{
+    text-decoration: none;
+}
+.right-sm-12 li{
+    margin-left: 30px;
+}
+
+.bodystart-img-sm12{
+    height: 57vh;
+    background: url('img/khalti-background.jpeg') no-repeat center center/cover;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nuosu SIL', serif;
+    /* opacity: 0.5; */
+}
+ .body-inside-text{
+    /* z-index: 1; */
+    font-family: 'Nuosu SIL', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 32%;
+    opacity: 1;
+    margin: 0px auto;
+ }
+ .body-inside-text h2{
+    z-index: 1;
+    /* opacity: 1; */
+    color: white;
+    font-family: 'Nuosu SIL', serif;
+    font-size: 2.2em;
+    font-weight: bolder;
+ }
+
+ .body-inside-text p{
+    color: #ff9f31;
+    /* opacity: 1; */
+    margin-top: 15px;
+    padding: 5px;
+    margin-left: 10px;
+ }
+
+ /* .bodystart-img-sm12::before{
+    content: "";
+    background-image: url('khalti-background.jpeg') no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 3;
+    z-index: -1;
+ } */
+
+ .about-txt-sm12{
+    width: 50%;
+    margin: 35px auto;
+    /* background-color: blue; */
+
+ }
+ .about-txt-sm12 p{
+margin: 30px 10px;
+padding: 10px;
+ }
+ .body-end-sm12{
+    width: 50%;
+    margin: 35px auto;
+    /* background-color: blue; */
+
+ }
+ .body-end-sm12 h1{
+    text-align: center;
+    color: #6610f2;
+ }
+ .body-end-sm12 p{
+margin: 30px 10px;
+padding: 10px;
+ }
+
+ /* footer css */
+
+ .footer-sm-12{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1b053a;
+    color: white;
+    height: 60vh;
+    justify-content: space-evenly;
+    margin-top:30px;
+ }
+
+ .column-sm-20{
+    margin-top: 40px;
+ }
+
+ .column-sm-20 h3{
+    font-weight: bold;
+    margin-bottom: 3px;
+ }
+ .column-sm-20 ul{
+    list-style: none;
+    font-size: 15px;
+ }
+
+ .business-soln-sm-20{
+    margin-top: 20px;
+ }
+
+ .column-sm-20 img{
+height: 30px;
+width: 100px;
+ }
+
+ .connect-12{
+    margin-top: 60px;
+ }
+ .fa-facebook {
+    background: #3B5998;
+    border-radius: 5px;
+    height: 20px;
+    width: 25px;
+    margin: 2px;
+    text-align: center;
+    color: white;
+  }
+
+  .fa-instagram {
+    border-radius: 5px;
+    height: 20px;
+    width: 25px;
+    margin: 2px;
+    background: #125688;
+    text-align: center;
+    color: white;
+  }
+  .fa-linkedin {
+    border-radius: 5px;
+    height: 20px;
+    width: 25px;
+    margin: 2px;
+    background: #007bb5;
+    text-align: center;
+    color: white;
+  }
+
+  .fa-twitter {
+    border-radius: 5px;
+    height: 20px;
+    width: 25px;
+    margin: 2px;
+    background: #55ACEE;
+    text-align: center;
+    color: white;
+  }
+
+  .fa-youtube {
+    border-radius: 5px;
+    height: 20px;
+    width: 25px;
+    margin: 2px;
+    background: #bb0000;
+    text-align: center;
+    color: white;
+  }
+
+ .footer-txt-sm-12{
+    height: 40px;
+    color: white;
+    background-color: #1b053a;
+    text-align: center;
+ }
+
+ /* responsive start from here */
+
+ /* for mobile --------------------------------------------------------*/
+ @media (max-width:480px) {
+
+    .container-top-12{
+        background-color: #110226;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .contact-top-sm6 ul{ 
+    display: block;
+    /* margin-left: 200px; */
+    width: 100%;
+    margin: 0px auto;
+    
+    }
+    .contact-top-sm6 ul li {
+        /* text-decoration: none; */
+        display: block;
+        list-style: none;
+    }
+    #fa-fa-phone{
+    font-size: 13px;
+    color: white;
+    border-radius: 50%;
+    background-color:#6610f2 ;margin-right: 4px;
+    /* display: inline; */
+    }
+    
+    .contact{
+        /* display: inline; */
+        color: white;
+    }
+    .help{
+        background-color: #ff9f31;
+        width: 120px;
+        margin-left: 15px;
+        height: 25px;
+        padding: 2px;
+        border-radius: 35px;
+        text-align: center;
+        /* display: block; */
+        color: white;
+        font-weight: lighter;
+        font-size: 15px;
+    }
+    
+    .resistration-top-sm6 ul{
+        width: 100%;
+        margin :0px auto;
+        /* display: block; */
+        
+    }
+    
+    .resistration-top-sm6 ul li{
+        text-decoration: none;
+        display: block;
+        list-style: none;
+    }
+    .login-sm-3{
+        width: 100%;
+        color: white;
+        height: 25px;
+        font-size: 13px;
+        border: 1px solid white;
+        border-radius: 35px;
+        text-align: center;
+        display: block;
+    }
+    .signup-sm-3{
+        width: 100%;
+        font-size: 13px;
+        margin-left: 15px;
+        height: 25px;
+        display: block;
+        color: white;
+        border: 1px solid white;
+        border-radius: 35px;
+        text-align: center;
+    }
+    /* navbar css start */
+    .navbar-sm-12{
+        font-family: 'Nuosu SIL', serif;
+        display: block;
+        /* margin-top: 4px; */
+        height: auto;
+        /* background-color: aqua; */
+    }
+    .left-sm-4{
+        width: 100%;
+        display: inline-block;
+        margin:0px auto;
+        text-align: center;
+        align-items: center;
+    }
+    .left-sm-4 img{
+        height: 60px;
+        width: 120px;
+        margin: 2px auto;
+    }
+    
+    .right-sm-8{
+        width: 100%;
+        display: block;
+        /* justify-content: space-around; */
+        color:#56328c;
+    }
+    .right-sm-12 {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
+        list-style: none;
+        margin-right: 90px;
+    }
+    .right-sm-12 li{
+        /* margin-left: 30px; */
+        /* border: 3px solid black; */
+        text-align: center;
+        display: block;
+    }
+    
+    .bodystart-img-sm12{
+        height: 57vh;
+        background: url('khalti-background.jpeg') no-repeat center center/cover;
+        z-index: -1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Nuosu SIL', serif;
+        /* opacity: 0.5; */
+    }
+     .body-inside-text{
+        /* z-index: 1; */
+        font-family: 'Nuosu SIL', serif;
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        opacity: 1;
+        margin: 0px auto;
+     }
+     .body-inside-text h2{
+        width: 100%;
+        text-align: center;
+        z-index: 1;
+        /* opacity: 1; */
+        color: white;
+        font-family: 'Nuosu SIL', serif;
+        font-size: 1em;
+        font-weight: bolder;
+     }
+    
+     .body-inside-text p{
+        color: #ff9f31;
+        /* opacity: 1; */
+        margin-top: 15px;
+        padding: 5px;
+        margin-left: 5px;
+     }
+    
+     .about-txt-sm12{
+        width: 90%;
+        margin: 10px auto;
+        /* background-color: blue; */
+    
+     }
+     .about-txt-sm12 p{
+    margin: 10px 10px;
+    padding: 10px;
+     }
+     .body-end-sm12{
+        width: 90%;
+        margin: 25px auto;
+        /* background-color: blue; */
+    
+     }
+     .body-end-sm12 h1{
+        text-align: center;
+        color: #6610f2;
+        font-size: 20px;
+     }
+     .body-end-sm12 p{
+    margin: 30px 10px;
+    padding: 10px;
+     }
+    
+     /* footer css */
+    
+     .footer-sm-12{
+        font-family: 'Ubuntu', sans-serif;
+        /* display: inline-block; */
+        background-color: #1b053a;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        width: 100%;
+     }
+    
+     .column-sm-20{
+        display: block;
+        width: 100%;
+     }
+    
+     .column-sm-20 h3{
+        font-weight: bold;
+        display: block;
+        width: 100%;
+        /* margin-bottom: 3px; */
+     }
+     .column-sm-20 ul{
+        list-style: none;
+        width: 100%;
+        display: block;
+        font-size: 15px;
+     }
+    
+     .business-soln-sm-20{
+        margin-top: 20px;
+     }
+    
+     .column-sm-20 img{
+    height: 30px;
+    width: 100px;
+     }
+    
+     .connect-12{
+        margin-top: 60px;
+     }
+     .fa-facebook {
+        background: #3B5998;
+        border-radius: 5px;
+        height: 20px;
+        width: 25px;
+        margin: 2px;
+        text-align: center;
+        color: white;
+      }
+    
+      .fa-instagram {
+        border-radius: 5px;
+        height: 20px;
+        width: 25px;
+        margin: 2px;
+        background: #125688;
+        text-align: center;
+        color: white;
+      }
+      .fa-linkedin {
+        border-radius: 5px;
+        height: 20px;
+        width: 25px;
+        margin: 2px;
+        background: #007bb5;
+        text-align: center;
+        color: white;
+      }
+    
+      .fa-twitter {
+        border-radius: 5px;
+        height: 20px;
+        width: 25px;
+        margin: 2px;
+        background: #55ACEE;
+        text-align: center;
+        color: white;
+      }
+    
+      .fa-youtube {
+        border-radius: 5px;
+        height: 20px;
+        width: 25px;
+        margin: 2px;
+        background: #bb0000;
+        text-align: center;
+        color: white;
+      }
+    
+     .footer-txt-sm-12{
+        height: 40px;
+        width: 100%;
+        margin: 0px auto;
+        color: white;
+        background-color: #1b053a;
+        text-align: center;
+     }
+
+    
+ }
+
+ /* for tablets */
+ @media (max-width:481) and (min-width:768){
+
+
+ }
+
+ /* for laptops large tablets */
+ @media (max-width:1279) and (min-width:769){
+
+ }
+
+ @media(max-width:2000) and (min-width:1280){
+
+ }
+
+

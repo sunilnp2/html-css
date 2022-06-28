@@ -1,0 +1,141 @@
+/* home css */
+.catcar ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding: 4px;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+
+  }
+  .catcar ul:hover{
+    background-color: burlywood;
+  }
+  .catcar ul li a{
+    text-decoration: none;
+    font-family: 'Baloo Bhai 2', cursive;
+
+  }
+
+  .catcar ul li:hover{
+    background-color: whitesmoke;
+
+  }
+  .carousel-item img{
+    width: 100px;
+    height: 550px;
+  }
+
+  .footer{
+height: 60px;
+background-color: gray;
+display: flex;
+justify-content:center;
+align-items: center;
+}
+.footer p{
+font-size: 1.2em;
+position: relative;
+top: 20px;
+
+
+}
+
+
+/* prduct list css */
+
+.catcar ul {
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: cadetblue; */
+    list-style: none;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding: 4px;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+
+  }
+  .catcar ul:hover{
+    background-color: burlywood;
+  }
+  .catcar ul li a{
+    text-decoration: none;
+    font-family: 'Baloo Bhai 2', cursive;
+
+  }
+
+  .catcar ul li:hover{
+    background-color: whitesmoke;
+
+  }
+
+  /* product list style */
+.h2{
+background-color: whitesmoke;
+/* width: 50%; */
+display: block;
+margin:5px auto;
+text-align: center;
+padding: 10px;
+font-size: 3em;
+/* font-family:'Baloo Bhai 2', cursive; */
+}
+
+  .product{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(206, 200, 193);
+  }
+  .card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+max-width: 300px;
+margin: 5px auto;
+text-align: center;
+font-family: arial;
+padding: 5px;
+}
+
+.price {
+color: grey;
+font-size: 22px;
+}
+
+.card button {
+border: none;
+outline: 0;
+padding: 12px;
+color: white;
+background-color: #000;
+text-align: center;
+cursor: pointer;
+width: 100%;
+font-size: 18px;
+}
+
+.card button:hover {
+opacity: 0.7;
+}
+
+.footer{
+height: 60px;
+background-color: gray;
+display: flex;
+justify-content:center;
+align-items: center;
+}
+.footer p{
+font-size: 1.2em;
+position: relative;
+top: 20px;
+
+
+}
