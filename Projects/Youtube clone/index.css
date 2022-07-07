@@ -80,6 +80,24 @@ body {
   align-items: center;
 }
 
+.notification{
+  color: white;
+  /* font-size: 10px; */
+  height: 10px;
+  width: 10px;
+  padding: 3px;
+  background-color: red;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  position: relative;
+  bottom: 7px;
+  right: 10px;
+
+}
+
 /* .header-right-sm-3 i{
   margin-left: 20px;
 } */
