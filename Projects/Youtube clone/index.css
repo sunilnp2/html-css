@@ -1,0 +1,342 @@
+body {
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.header-sm-12 {
+  height: 8vh;
+  width: 100vw;
+  display: flex;
+}
+
+.header-left-sm-3 {
+  width: 15vw;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.three-dotted {
+  width: 30%;
+  /* margin: auto; */
+}
+
+.youtube-logo {
+  width: 70%;
+  /* margin: auto; */
+  display: flex;
+}
+
+.three-dot {
+  width: 20px;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.548);
+  margin: 4px 23px;
+}
+
+.youtube-name {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.3em;
+}
+
+.header-mid-sm-6 {
+  width: 70vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-mid-sm-6 input{
+    width: 35vw;
+    height: 38px;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 1.1em;
+}
+
+.header-mid-sm-6 button{
+        /* float: left; */
+        width: 6%;
+        padding: 8px;
+        background: #f7fcfe;
+        color: rgb(255, 255, 255);
+        font-size: 17px;
+        border: 1px solid grey;
+        border-left: none;
+        cursor: pointer;
+}
+
+.header-right-sm-3 {
+  width: 15vw;
+  height: 100%;
+  position: relative;
+  right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .header-right-sm-3 i{
+  margin-left: 20px;
+} */
+
+.header-right-sm-3 img{
+  height: 35px;
+  width: 35px;
+  border-radius: 50px;
+  margin-left: 26px;
+}
+
+.body-sm-12{
+  width: 100vw;
+  height: auto;
+  display: flex;
+}
+
+/* left part ---------------------------------- */
+.body-left-sm-3{
+  height: 90vh;
+  width: 15vw;
+}
+
+.first-section-sm-12{
+  height: 165px;
+}
+
+
+/* css for list section and hover---------------------- */
+.list-section{
+  display: flex;
+  height: 40px;
+  /* background-color: lightgray; */
+
+}
+
+
+ul{
+  list-style: none;
+}
+
+.list-section i{
+  font-size: 21px;
+  position: relative;
+  right: 15px;
+  /* left: 20px; */
+}
+
+.list-section img{
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  position: relative;
+  right: 5px;
+}
+
+.list-section li a{
+  font-size: 15px;
+ position: relative;
+ top: 2px;
+ left: 10px;
+ color: black;
+ /* color: hsl(0, 0%, 0%); */
+ text-decoration: none;
+font-family: 'Lato', sans-serif;
+}
+
+hr{
+  height: 3px;
+  width: 100%;
+  position: relative;
+  bottom: 12px;
+
+}
+
+
+
+.second-section-sm-12{
+  margin-top: 20px;
+  height: 250px;
+  /* background-color: red; */
+}
+
+/* .third-section-sm-12{
+} */
+
+.subscriptions{
+  font-size: 1.05em;
+  width: 100%;
+  position: relative;
+  left: 20px;
+ }
+
+ /* body right css code start */
+ .body-right-sm-9{
+  /* background-color: aqua; */
+  height: 90vh;
+  margin: 0px;
+  width: 85vw;
+ }
+
+ .body-top-sm-12 ul{
+  height: 50px;
+  list-style: none;
+  display: flex;
+
+ }
+
+ .body-top-sm-12 li a{
+  text-decoration: none;
+  margin: 10px;
+  padding: 8px 10px;
+  border-radius: 25px;
+  color: black;
+  background-color: #dddfe0;
+ }
+
+ .body-top-sm-12 hr{
+  height: 1px;
+  width: 100%;
+  /* background-color: black; */
+ }
+
+ .higher-hr{
+  position: relative;
+  /* top: 0px; */
+  bottom: 3px;
+ }
+
+ .lower-hr{
+  position: relative;
+  bottom: 28px;
+ }
+ 
+.video-sm-12{
+  width: 100%;
+  /* margin-top: 10px; */
+  height: 80vh;
+  position: relative;
+  bottom: 40px;
+}
+
+.first-container{
+  height: 45%;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+}
+
+.second-container{
+  display: flex;
+  height: 45%;
+  width: 100%;
+  /* background-color: black; */
+}
+.third-container{
+  display: flex;
+  height: 45%;
+  width: 100%;
+  /* background-color: orange; */
+}
+
+/* css for video section */
+.container-video-sm-25{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 22.9%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  /* background-color: white; */
+}
+
+.container-video-sm-25:hover .hover-class{
+  display: block;
+  font-size: 3em;
+}
+
+.image-section{
+  height: 300px;
+}
+
+.image-section img{
+  width: 100%;
+  height:165px;
+  z-index: 1;
+}
+.duration{
+  position: relative;
+  bottom: 43px;
+  float: right;
+  right: 10px;
+  opacity: 5;
+  z-index: 2;
+  color: white;
+
+}
+
+.image-detail-sm-12{
+  height: auto;
+  width: 100%;
+  /* background-color: yellow; */
+  position: relative;
+  display: flex;
+  /* align-items: flex-start; */
+  bottom: 50px;
+}
+.left-logo-image{
+  width: 20%;
+  height: 100%;
+}
+
+.left-logo-image img{
+  height: 35px;
+  width: 35px;
+  border-radius: 50px;
+  z-index: 3;
+}
+
+.right-detail-section{
+  width: 80%;
+  position: relative;
+}
+ .topic-video{
+  font-size: 1.05em;
+  opacity: 5;
+  height: 35px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  font-family: 'Lato', sans-serif;
+}
+
+.channel-name{
+  margin: 0px;
+  font-size: 15px;
+  opacity: 0.7;
+  width: 70%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.views{
+  margin: 0px;
+  font-size: 13px;
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  opacity: 0.8;
+  /* left: 5px; */
+ }
+
+
+ /* hover part start from here */
+#list-section1:hover{
+  /* background-color: #dddfe0;
+  width: 100%; */
+}
+ 
