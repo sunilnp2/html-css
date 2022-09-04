@@ -86,7 +86,7 @@ body {
   height: 10px;
   width: 10px;
   padding: 3px;
-  background-color: red;
+  background-color: rgb(203, 7, 7);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -286,6 +286,7 @@ hr{
   height:165px;
   z-index: 1;
 }
+
 .duration{
   position: relative;
   bottom: 43px;
