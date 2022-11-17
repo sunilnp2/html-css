@@ -1,0 +1,64 @@
+*{
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 50px;
+    background-color: lightgray;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+
+}
+
+.list{
+    padding: 7px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-size: 1.1em;
+    transition-duration: 1s;
+    transition-property: all;
+}
+
+.list:hover{
+    color: yellow;
+    background-color: aquamarine;
+    border-radius: 50px;
+    position: static;
+}
+
+#navbar6{
+    color: red;
+    background-color: aqua;
+    position: relative;
+    animation-name: chatus;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes chatus {
+    25%{
+        top: 0px;
+        left: 80px;
+    }
+
+    50%{
+        top: 80px;
+        left: 80px;
+    }
+
+    75%{
+        top: 80px;
+    }
+    
+    100%{
+        top: 0px;
+        left: 0px;
+    }
+}
