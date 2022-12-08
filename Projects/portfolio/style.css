@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+}
+
+.sidebar{
+    font-weight: bold;
+    position: absolute;
+    background-color: rgb(194, 191, 191);
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    /* text-align: center; */
+}
+
+.sidebar nav{
+    padding: 30px;
+    /* list-style: none; */
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding : 30px 0px;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+.infoContainer{
+    /* background-color: rgb(173, 138, 72); */
+    height: 58vh;
+    width: 80vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.myPic img{
+    /* width: 381px; */
+    height: 58vh;
+}
+
+
+.myInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello{
+    font-size: 65px;
+}
+
+.name{
+font-size: 50px;
+font-weight: bold;
+font-family: 'Fira Sans', sans-serif;
+}
+
+.about{
+    font-size: 40px;
+}
+
+.buttons{
+
+    margin-top: 30px;
+}
+
+.buttons button{
+    padding: 7.5px 11px;
+    border-radius: 21px;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+.myabout{
+    margin: 10px 0;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+
+/* style for contact ---------------------------------------------------------------*/
+
+.contactForm{
+    padding: 0 34px;
+    padding-top: 100px;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.contactForm h1{
+    font-family: 'Source Code Pro', monospace;
+    /* text-align: center; */
+}
+
+.contactForm form div{
+    padding: 10px 0;
+}
+
+.inputField{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputField input{
+    width: 30vw;
+    /* height: 20px; */
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 6px 0 0 0;
+}
+
+.checkField{
+    display: flex;
+    flex-direction: row;
+}
+
+.checkField input{
+    margin-right: 5px;
+    font-size: 11px;
+}
+
+.contactForm button{
+    padding: 3px 11px;
+    border-radius: 12px;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 15px;
+}
+
+#emailHelp{
+    font-size: 10px;
+    color: green;
+    margin: 0 5px;
+}
+
+
+
+
+/*-------------------------------------------------------------- css for blog----------------------------------------------------------------------------------------- */
+
+.blogContainer{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading{
+    font-family: 'Kenia', cursive;
+    margin: 23px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.blogItem{
+    margin: 15px;
+    padding: 8px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.blog{
+    font-family: 'Roboto Slab', serif;
+}
+
+.btn{
+    padding: 3px 11px;
+    border-radius: 12px;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.sidebarGo{
+    transform: translate(-443px, 0);
+    position: absolute;
+}
+
+
+
+/*--------------------------------------- media query start --------------------------------------------------------------- */
+
+
+.cross{
+    position: absolute;
+    left: 20px;
+    margin-left: 135px ;
+    font-size: 1.6em;
+    top: 10px;
+}
+.open{
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    font-size: 1.4em;
+}
+@media (max-width:1610px) {
+    
+    *{
+        /* background-color: yellow; */
+    }
+
+    .myPic{
+        display: none;
+    }
+}

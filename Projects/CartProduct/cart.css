@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    box-sizing: border-box;
+    width: 100vw;
+    height: auto;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart{
+    display: flex;
+    flex-direction: column;
+    width: 33vw;
+    height: 35vh;
+    margin: 10px;
+    box-sizing: border-box;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+
+}
+
+.top{
+    transition: all 2s ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+    background-color: black;
+}
+.middle-pic{
+    transition: all 1s ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 65%;
+    background-color: yellow;
+}
+
+.middle-pic img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.middle-pic i{
+    transition: all 1.5s;
+    margin: 5px;
+    padding: 12px;
+    background-color: #FF6F61;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 17px;
+    display: inline-block;
+}
+
+.fafa-fonts{
+    transition: all 1.5;
+    transition-delay: 1s;
+    display: none;
+    position: absolute;
+}
+.bottom{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: black;
+    height: 20%;
+    transition: all 2s;
+}
+
+.bottom .left{
+    display: flex;
+    
+    align-items: center;
+    width: 20%;
+    height: 60%;
+    margin: 5px;
+    justify-content: space-around;
+font-size: 1.5em;
+}
+.bottom .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 60%;
+    margin: 5px;
+    background-color: #FF6F61;
+    font-size: 1.2em;
+    border-radius: 10px;
+    transition: all 2s ;
+}
+
+
+.cart:hover .fafa-fonts{
+    display: flex;
+    transition: all 2s;
+}
+
+.cart:hover .bottom{
+    background-color: #FF6F61;
+}
+.cart:hover .top{
+    background-color: #FF6F61;
+}
+
+.cart:hover .middle-pic{
+    background-color: #FF6F61;
+}
+
+.cart:hover .right{
+    background-color: white;
+    color: red;
+}

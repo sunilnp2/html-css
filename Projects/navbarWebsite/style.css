@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.navbar{
+    height: 60px;
+    background-color: lightgray;
+    width: 100vw;
+}
+
+.navbar ul{
+    position: fixed;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.navbar li{
+    margin: 12px;
+    padding: 2px;
+    background-color: antiquewhite;
+    color: black;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.image img{
+    height: 75vh;
+    width: 100vw;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+.about{
+    position: absolute;
+    top: 12vh;
+    left: 8vw;
+    width: 35vw;
+    height: auto;
+
+}
+
+.heading-sm-2{
+    font-size: 1.6em;
+    /* background-color: antiquewhite; */
+    border: 2px solid brown;
+    color: brown;
+    display: flex;
+    width: 100px;
+    justify-content: center;
+}
+
+.about-sm-2{
+    color: rgb(13, 193, 64);
+    opacity: 5;
+    font-size: 1.2em;
+    margin-top: 20px;
+
+}
+
+.services{
+    margin-top: 30vh;
+}
+
